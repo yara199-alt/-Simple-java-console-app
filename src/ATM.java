@@ -104,7 +104,7 @@ class USER_ACCOUNT {
         }
         else{
             balance-=amount;
-            LastTransaction= "Withdrawn" + amount +"$";
+            LastTransaction= "Withdrawn " + amount +"$";
             System.out.println("withdrawal Successful");
         }
 
